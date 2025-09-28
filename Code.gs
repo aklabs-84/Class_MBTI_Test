@@ -86,7 +86,7 @@ function findCol_(sh, key){ // key in HEADER_KEYS
 function doPost(e) {
   try {
     // 스프레드시트 ID (실제 ID로 변경 필요)
-    const SPREADSHEET_ID = '1WI20EWfNEgDa_UmvboQr09KXxcUdZpx8b4ZosvO4aZg';
+    const SPREADSHEET_ID = '스프레드시트 ID';
     const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
     
     // 현재 날짜로 시트 결정
